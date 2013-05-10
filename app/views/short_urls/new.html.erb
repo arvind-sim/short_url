@@ -1,0 +1,9 @@
+<h1>Short Url Service</h1>
+<%= form_for(@short_url) do |f| %>
+  <%= f.label :original, 'Url' %>
+  <%= f.text_field :original %>
+
+  <%= f.submit "Generate" %>
+<% end %>
+
+<%= flash[:error] %>

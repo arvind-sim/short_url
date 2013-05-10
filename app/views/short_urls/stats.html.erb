@@ -1,0 +1,15 @@
+<h1><%=@url_name%> stats</h1>
+<div>
+  <table cellpadding="0" cellspacing="0" border="1" width="100%">
+  <tr>
+    <th>Access IP</th>
+    <th>User Agent</th>
+  </tr>
+  <% @stats.each do |stat| %>
+     <tr>
+       <td><%=stat.ip_address%></td>
+       <td><%=stat.user_agent%></td>
+     </tr>
+  <% end %>
+  </table>
+</div>

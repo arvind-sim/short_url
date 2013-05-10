@@ -1,0 +1,12 @@
+stat1:
+  id: 1
+  url_id: 1
+  user_agent: 'test'
+  created_at: Time.now
+  updated_at: Time.now
+stat2:
+  id: 2
+  url_id: 1
+  user_agent: 'test1'
+  created_at: Time.now
+  updated_at: Time.now

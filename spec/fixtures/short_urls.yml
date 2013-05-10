@@ -1,0 +1,4 @@
+url1:
+  id: 1
+  original: 'http://www.example.com'
+  truncated: 'ABCDEFGH'

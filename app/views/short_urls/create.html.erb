@@ -1,0 +1,9 @@
+<h1>Short Urls Service</h1>
+
+Original Url: <%= @short_url.original %>
+<br />
+<br />
+Shortened Url: <%= link_to "http://#{request.host_with_port}/#{@short_url.truncated}", "http://#{request.host_with_port}/#{@short_url.truncated}" %>
+<br />
+<br />
+Stats Url: <%=link_to "Statistics", "http://#{request.host_with_port}/stats/#{@short_url.truncated}"%>
